@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Temporizador Pomodoro",
+  "version": "1.0",
+  "description": "Um timer pomodoro que gerencia seu tempo e sua produtividade.",
+  "action": {
+      "default_popup":"popup.html",
+      "default_icon": {
+          "16":"img/icon16.png",
+          "48":"img/icon48.png",
+          "128":"img/icon128.png"
+      }
+  },
+  "permissions": ["storage"]
+}
